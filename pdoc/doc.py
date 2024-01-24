@@ -1212,7 +1212,7 @@ class _PrettySignature(inspect.Signature):
     for complex signatures.
     """
 
-    MULTILINE_CUTOFF = 70
+    MULTILINE_CUTOFF = 90
 
     def _params(self) -> list[str]:
         # redeclared here to keep code snipped below as-is.
